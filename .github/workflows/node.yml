@@ -14,5 +14,5 @@ jobs:
       - name: run node dome
         run: |
           npm install axios
-          node bingwallpaper.js
+          node .\bingwallpaper.js
 
