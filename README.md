@@ -1,0 +1,2 @@
+# bingWallpaperEveryDay
+获取并保存bing的每日壁纸
