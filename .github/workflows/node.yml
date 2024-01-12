@@ -1,7 +1,7 @@
 name: saveBingWallPaer
 on:
   schedule:
-    - cron:  '00 1 * * *'
+    - cron:  '00 2 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,5 +14,5 @@ jobs:
           node-version: '18.x'
       - name: Install Dependencies
         run: |
-          npm install
+          npm install axios
           node .\bingwallpaper.js
